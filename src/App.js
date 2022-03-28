@@ -1,4 +1,5 @@
-import "./tailwind.css"
+import "./tailwind.css";
+import Button from "./components/Button";
 
 const App = () => {
   return (
@@ -8,8 +9,9 @@ const App = () => {
         Now you can use <code className="bg-[#ccc] p-[3px]">[]</code> to style
         your app
       </p>
+      <Button />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
